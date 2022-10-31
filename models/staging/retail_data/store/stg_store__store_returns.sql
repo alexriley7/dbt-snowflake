@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+--{{ config(materialized='table') }}
 
 WITH source_store_returns as (
     select * from {{ source('_store__sources', 'store_returns')}}
