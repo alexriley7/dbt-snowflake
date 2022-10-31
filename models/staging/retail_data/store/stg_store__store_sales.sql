@@ -1,5 +1,5 @@
 WITH source_store_sales as (
-    select * from {{ source('store', 'store_sales')}}
+    select * from {{ source('_store__sources', 'store_sales')}}
 
 ),
 
