@@ -8,5 +8,6 @@ sources:
     tables:
       - name: store_sales
       - name: store_returns
+      - name: store
      
 
