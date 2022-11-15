@@ -1,0 +1,20 @@
+version: 2
+
+models:
+    - name: stg_store__store_returns
+      description: "A starter dbt model"
+      columns:
+          - name: SR_ITEM_SK
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: stg_store__store_sales
+      description: "A starter dbt model"
+      columns:
+          - name: SS_ITEM_SK
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null

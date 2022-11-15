@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: _store__sources
+    description: 'A sample database provided by Snowflake'
+    database: snowflake_sample_data
+    schema: TPCDS_SF10TCL
+    tables:
+      - name: store_sales
+      - name: store_returns
+      - name: store
+     
+
